@@ -88,25 +88,25 @@ WSGI_APPLICATION = 'analizar.wsgi.app'
 
 #Conexion a base de datos mysql
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': '00f43689_analizar_2024',
-#         'USER': '00f43689_analizar_2024',
-#         'PASSWORD': 'akNmNFK24cA5',
-#         'HOST': '190.228.29.53',#190.228.29.62 o 192.168.0.63
-#         'PORT': '3306',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': '00f43689_analizar_2024',
+        'USER': '00f43689_analizar_2024',
+        'PASSWORD': 'akNmNFK24cA5',
+        'HOST': '190.228.29.53',#190.228.29.62 o 192.168.0.63
+        'PORT': '3306',
+    }
+}
 
 #Conexion a base de datos sqlite
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 #Miik64K7gjM1
 
@@ -178,6 +178,6 @@ CORS_ALLOW_HEADERS = [
     'Authorization',
     'Content-Type',
 ]
-CSRF_TRUSTED_ORIGINS = ['http://localhost:4200', 'http://localhost:8000']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:4200', 'http://localhost:8000', 'https://analizar-host.vercel.app']
 APPEND_SLASH = False
 
