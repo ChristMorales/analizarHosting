@@ -91,10 +91,10 @@ WSGI_APPLICATION = 'analizar.wsgi.app'
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'analizar',
-#         'USER': 'analizar',
-#         'PASSWORD': 'Miik64K7gjM1',
-#         'HOST': '190.228.29.62',#190.228.29.62 o 192.168.0.63
+#         'NAME': '00f43689_analizar_2024',
+#         'USER': '00f43689_analizar_2024',
+#         'PASSWORD': 'akNmNFK24cA5',
+#         'HOST': '190.228.29.53',#190.228.29.62 o 192.168.0.63
 #         'PORT': '3306',
 #     }
 # }
@@ -159,9 +159,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:4200', 'http://localhost:8000', 'https://analizar-host.vercel.app'  # Reemplaza con la URL de tu frontend de Angular
-]
+# CORS_ORIGIN_WHITELIST = [
+#     'http://localhost:4200', 'http://localhost:8000', 'https://analizar-host.vercel.app'  # Reemplaza con la URL de tu frontend de Angular
+# ]
 
 CORS_ALLOW_METHODS = [
     'GET',
