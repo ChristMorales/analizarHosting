@@ -80,7 +80,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'analizar.wsgi.application'
+WSGI_APPLICATION = 'analizar.wsgi.app'
 
 
 # Database
@@ -160,7 +160,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:4200', 'http://localhost:8000'  # Reemplaza con la URL de tu frontend de Angular
+    'http://localhost:4200', 'http://localhost:8000', 'https://analizar-host.vercel.app'  # Reemplaza con la URL de tu frontend de Angular
 ]
 
 CORS_ALLOW_METHODS = [
